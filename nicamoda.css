@@ -1,0 +1,176 @@
+/* Tipografías */
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #FADADD; /* rosa palo */
+  color: #2C3E50; /* azul petróleo para contraste */
+}
+
+/* Encabezado */
+header {
+  background-color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #D98880; /* terracota */
+}
+
+header h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5rem;
+  margin: 0;
+  color: #D98880;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2C3E50;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #D98880;
+}
+
+/* Hero Section */
+#hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #F5F5F5;
+}
+
+#hero h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #D98880;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #C76B6B;
+}
+
+/* Sección de Camisas */
+#camisas {
+  padding: 40px 20px;
+  background-color: #EAEAEA;
+  text-align: center;
+}
+
+#camisas h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+#camisas p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #888;
+  border-top: 2px solid #D98880;
+}
+
+.contact-section {
+  background-color: #fff8f2;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact-card {
+  font-size: 1.2rem;
+  color: #6b4c3b;
+  line-height: 2;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-card a {
+  color: #a67c52;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
+
+
+.camisas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  padding: 40px 20px;
+  background-color: #fff8f2;
+}
+
+.camisa-card {
+  background-color: #ffffff;
+  border: 1px solid #e8d6c3;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.camisa-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.camisa-card h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  color: #6b4c3b;
+  margin: 5px 0;
+}
+
+.camisa-card p {
+  font-size: 1rem;
+  color: #a67c52;
+  margin-bottom: 10px;
+}
+
+.buy-button {
+  background-color: #D98880;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buy-button:hover {
+  background-color: #c76b6b;
+}
